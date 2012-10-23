@@ -17,7 +17,6 @@
 		8992C26C1636642700C0A60F /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8992C26B1636642700C0A60F /* Default@2x.png */; };
 		8992C26E1636642700C0A60F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8992C26D1636642700C0A60F /* Default-568h@2x.png */; };
 		8992C2711636642700C0A60F /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8992C26F1636642700C0A60F /* MainStoryboard.storyboard */; };
-		8992C2741636642700C0A60F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8992C2731636642700C0A60F /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,8 +34,6 @@
 		8992C26B1636642700C0A60F /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		8992C26D1636642700C0A60F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		8992C2701636642700C0A60F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		8992C2721636642700C0A60F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		8992C2731636642700C0A60F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,8 +83,6 @@
 				8992C2661636642600C0A60F /* AppDelegate.h */,
 				8992C2671636642600C0A60F /* AppDelegate.m */,
 				8992C26F1636642700C0A60F /* MainStoryboard.storyboard */,
-				8992C2721636642700C0A60F /* ViewController.h */,
-				8992C2731636642700C0A60F /* ViewController.m */,
 				8992C25E1636642600C0A60F /* Supporting Files */,
 			);
 			path = TalkingPic;
@@ -175,7 +170,6 @@
 			files = (
 				8992C2641636642600C0A60F /* main.m in Sources */,
 				8992C2681636642600C0A60F /* AppDelegate.m in Sources */,
-				8992C2741636642700C0A60F /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,6 +286,7 @@
 				8992C2791636642700C0A60F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
